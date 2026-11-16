@@ -6,7 +6,7 @@
     "author": "ONLYOFFICE",
     "website": "https://github.com/ONLYOFFICE/onlyoffice_odoo",
     "category": "Productivity",
-    "version": "6.2.1",
+    "version": "6.2.2",
     "depends": ["onlyoffice_odoo", "documents"],
     # always loaded
     "data": [
@@ -26,7 +26,6 @@
     "application": True,
     "assets": {
         "web.assets_backend": [
-            "onlyoffice_odoo_documents/static/src/models/*.js",
             "onlyoffice_odoo_documents/static/src/documents_view/**/*",
             "onlyoffice_odoo_documents/static/src/onlyoffice_create_template/**/*",
             "onlyoffice_odoo_documents/static/src/components/**/*",
